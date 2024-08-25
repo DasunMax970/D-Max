@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTS Bot Makers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .logo {
+            font-size: 36px;
+            color: #9dff00;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .sub-logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .dropdown, .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 18px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            background-color: #9dff00;
+            color: black;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #82cc00;
+        }
+        .flag {
+            font-size: 24px;
+            vertical-align: middle;
+        }
+        .input-label {
+            font-weight: bold;
+            margin-top: 15px;
+            display: block;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">D Max</div>
+        <div class="sub-logo">WTS Bot Makers</div>
+
+        <label class="input-label" for="bot-select">SELECT YOUR BOT</label>
+        <select id="bot-select" class="dropdown">
+            <option value="anjana-md-wts-bot">ANJANA - MD WTS BOT,FLASH - MD</option>
+            <!--FLASH --->
+        </select>
+
+        <label class="input-label" for="wts-number">ENTER YOUR WTS NUMBER</label>
+        <div class="input-field">
+            <span class="flag">🇱🇰</span> +94 <input type="text" id="wts-number" style="border: none; outline: none; width: 70%;">
+        </div>
+
+        <label class="input-label" for="email">ENTER YOUR IMAIL ADDRESS</label>
+        <input type="email" id="email" class="input-field" placeholder="ex: max970863@gmail.com">
+
+        <button class="btn">NEXT PAGE</button>
+    </div>
+
+</body>
+</html>
